@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+    <head>
+        <title>Book - {{ book.full_name }}</title>
+    </head>
+    <body>
+        <h1>{{ book.full_name }}</h1>
+        <ul>
+          <li><strong>Published:</strong> {{ book.published }}</li>
+          <li><strong>Author:</strong> {{ book.author }}</li>
+        </ul>
+        <div><img src="{{ book.picture }}" alt="{{ book.full_name }}" width="300px"></div>
+     <!-- TODO: add back button -->
+    </body>
+</html>
